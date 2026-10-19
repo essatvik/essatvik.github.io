@@ -7,3 +7,6 @@
 @media(max-width:420px){.hero-note{display:block}.channel-figure{max-width:290px;margin:16px auto}.hero-note p{max-width:none}.hero h1{font-size:65px}.hero-note h2{font-size:28px}.paper{grid-template-columns:1fr;gap:10px}.paper-meta{display:flex;align-items:baseline;gap:12px}.paper-meta .paper-year{font-size:17px;margin:0}.timeline-entry{grid-template-columns:1fr;gap:3px}.footer-inner{flex-direction:column;gap:8px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation:none!important;transition:none!important}}
 @media print{.site-header,.nav,.skip-link,.publication-toolbar,.cite-button,.site-footer{display:none!important}.wrap{width:100%;max-width:none}.hero,.section,.page-intro,.contact{padding:24px 0}.hero-note{display:none}.hero-grid,.about-grid,.academic-grid{display:block}.paper,.research-item,.timeline-entry{break-inside:avoid}.paper[hidden]{display:grid!important}body{background:white;color:black;font-size:11pt}a{color:inherit}.hero h1{font-size:48pt}.hero .lead{font-size:20pt}.research-grid{gap:20px}.paper h3{font-size:15pt}.section h2{font-size:24pt}}
+.email {
+  font-size: clamp(20px, 2.5vw, 30px);
+}
