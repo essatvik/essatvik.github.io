@@ -4,7 +4,7 @@
 <defs><marker id="id-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto"><path d="M1 1 7 4 1 7" fill="none" stroke="#748891" stroke-width="1.4"/></marker></defs>
 <g font-family="Arial,Helvetica,sans-serif" fill="#20323d">
 <text x="16" y="25" font-size="11" letter-spacing="1.5" fill="#285d7a">TRANSMISSION</text>
-<text x="16" y="47" font-family="Georgia,serif" font-size="15">“What message was sent?”</text>
+<text x="16" y="47" font-family="Georgia,serif" font-size="12">“What message was sent?”</text>
 <g stroke="#becacd" fill="none" marker-end="url(#id-arrow)"><path d="M36 87H55"/><path d="M135 87H154"/><path d="M242 87H261"/><path d="M353 87H375"/></g>
 <text x="23" y="93" font-family="Georgia,serif" font-style="italic" font-size="22" text-anchor="middle">m</text>
 <rect x="59" y="65" width="76" height="44" rx="3" fill="#f7f6f2" stroke="#c7d1d3"/><text x="97" y="92" font-size="13" text-anchor="middle">Encode</text>
@@ -14,7 +14,7 @@
 <text x="200" y="130" font-size="11" fill="#5d696e" text-anchor="middle">noisy channel</text>
 <path d="M16 153H464" stroke="#d5dad8"/>
 <text x="16" y="181" font-size="11" letter-spacing="1.5" fill="#285d7a">IDENTIFICATION</text>
-<text x="16" y="203" font-family="Georgia,serif" font-size="15">“Was it this one?”</text>
+<text x="16" y="203" font-family="Georgia,serif" font-size="12">“Was it this one?”</text>
 <g stroke="#becacd" fill="none" marker-end="url(#id-arrow)"><path d="M36 248H55"/><path d="M135 248H154"/><path d="M242 248H261"/><path d="M353 248H367"/></g>
 <text x="23" y="254" font-family="Georgia,serif" font-style="italic" font-size="22" text-anchor="middle">m</text>
 <rect x="59" y="226" width="76" height="44" rx="3" fill="#f7f6f2" stroke="#c7d1d3"/><text x="97" y="253" font-size="13" text-anchor="middle">Encode</text>
