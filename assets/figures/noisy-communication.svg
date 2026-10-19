@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="250" viewBox="0 0 600 250" role="img" aria-labelledby="noise-title noise-desc">
+  <title id="noise-title">Encoding, repeated noise, and decoding</title>
+  <desc id="noise-desc">Following the supplied schematic, logical data are represented by a blue disk. An encoding map E places the disk inside the physical memory L(H). Repeated applications of the noise channel Psi distort the stored information. A decoding map D leads back to the logical data space. The schematic poses the question of recoverability; it does not assert perfect recovery for arbitrary noise.</desc>
+  <defs>
+    <marker id="noise-arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="5" markerHeight="5" orient="auto"><path d="M1 1 7 4 1 7" fill="none" stroke="#748891" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></marker>
+  </defs>
+  <g font-family="Arial,Helvetica,sans-serif" fill="#5d696e" font-size="14" text-anchor="middle">
+    <text x="43" y="41">Logical data</text>
+    <text x="300" y="41" fill="#285d7a" font-size="15">Physical memory</text>
+    <text x="555" y="41">Decoded data</text>
+    <text x="299" y="182">Repeated noise</text>
+  </g>
+  <g fill="#f7f6f2" stroke="#a4b5bd" stroke-width="1.4">
+    <rect x="104" y="76" width="76" height="122" rx="2"/>
+    <rect x="418" y="76" width="76" height="122" rx="2"/>
+  </g>
+  <g fill="#dbe8ef" stroke="#285d7a" stroke-width="1.6">
+    <circle cx="43" cy="137" r="25"/>
+    <circle cx="142" cy="137" r="25"/>
+    <path d="M450 113 C433 106 429 130 436 148 C442 162 458 164 478 170 C478 155 468 119 450 113Z"/>
+    <circle cx="555" cy="137" r="25"/>
+  </g>
+  <g stroke="#748891" stroke-width="1.5" fill="none" marker-end="url(#noise-arrow)">
+    <path d="M62 165 Q87 195 120 166"/>
+    <path d="M193 137H234"/>
+    <path d="M248 137H289"/>
+    <path d="M365 137H405"/>
+    <path d="M475 112 Q514 91 536 113"/>
+  </g>
+  <g font-family="Georgia,'Times New Roman',serif" fill="#20323d" font-size="25" text-anchor="middle">
+    <text x="85" y="218" font-style="italic">ℰ</text>
+    <text x="514" y="90">𝒟</text>
+    <text x="214" y="119">Ψ</text>
+    <text x="269" y="119">Ψ</text>
+    <text x="385" y="119">Ψ</text>
+    <text x="327" y="142" letter-spacing="4">···</text>
+    <text x="142" y="226" font-size="22">ℒ(ℋ)</text>
+    <text x="456" y="226" font-size="22">ℒ(ℋ)</text>
+  </g>
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="310" viewBox="0 0 480 310" role="img" aria-labelledby="hybrid-title hybrid-desc">
+  <title id="hybrid-title">Two transmission sets with different maximal memory types</title>
+  <desc id="hybrid-desc">Hasse diagrams with upward paths indicating embeddings. On the left, C embeds into C squared, which embeds into both M2 and C cubed; both embed into the single boxed maximal type M2 direct sum C. On the right, C embeds into C squared, which embeds into M2 and C cubed. These two types are separately boxed and have no common upper type in the transmission set. The channels have the same classical and quantum zero-error capacities.</desc>
+  <g font-family="Arial,Helvetica,sans-serif" font-size="14" fill="#285d7a" text-anchor="middle">
+    <text x="120" y="25">Block dephasing</text>
+    <text x="360" y="25">Overlapping outputs</text>
+  </g>
+  <path d="M240 53V287" stroke="#d5dad8" stroke-width="1"/>
+  <g id="block-dephasing" fill="none" stroke="#748891" stroke-width="1.5" stroke-linecap="round">
+    <path data-edge="C-C2" d="M120 260V231"/>
+    <path data-edge="C2-M2" d="M107 201 75 165"/>
+    <path data-edge="C2-C3" d="M133 201 165 165"/>
+    <path data-edge="M2-M2plusC" d="M74 135 104 101"/>
+    <path data-edge="C3-M2plusC" d="M166 135 136 101"/>
+    <rect data-maximal="M2plusC" x="66" y="61" width="108" height="40" rx="3" fill="#e1eaee" stroke="#9eb9c5"/>
+  </g>
+  <g id="overlapping-outputs" fill="none" stroke="#748891" stroke-width="1.5" stroke-linecap="round">
+    <path data-edge="C-C2" d="M360 260V231"/>
+    <path data-edge="C2-M2" d="M347 201 321 170"/>
+    <path data-edge="C2-C3" d="M373 201 399 170"/>
+    <rect data-maximal="M2" x="272" y="130" width="60" height="40" rx="3" fill="#e1eaee" stroke="#9eb9c5"/>
+    <rect data-maximal="C3" x="388" y="130" width="60" height="40" rx="3" fill="#e1eaee" stroke="#9eb9c5"/>
+  </g>
+  <g font-family="Georgia,'Times New Roman',serif" font-size="25" fill="#20323d" text-anchor="middle">
+    <text x="120" y="89"><tspan font-style="italic">M</tspan><tspan font-size="16" baseline-shift="sub">2</tspan><tspan> ⊕ ℂ</tspan></text>
+    <text x="62" y="158"><tspan font-style="italic">M</tspan><tspan font-size="16" baseline-shift="sub">2</tspan></text>
+    <text x="178" y="158">ℂ<tspan font-size="16" baseline-shift="super">3</tspan></text>
+    <text x="120" y="224">ℂ<tspan font-size="16" baseline-shift="super">2</tspan></text>
+    <text x="120" y="284">ℂ</text>
+    <text x="302" y="158"><tspan font-style="italic">M</tspan><tspan font-size="16" baseline-shift="sub">2</tspan></text>
+    <text x="418" y="158">ℂ<tspan font-size="16" baseline-shift="super">3</tspan></text>
+    <text x="360" y="224">ℂ<tspan font-size="16" baseline-shift="super">2</tspan></text>
+    <text x="360" y="284">ℂ</text>
+  </g>
+</svg>
